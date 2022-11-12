@@ -100,4 +100,8 @@ nav ul li{
     margin-top: 15px;
     border-radius:10px ;
 }
+.songinfo{
+    position: absolute;
+    left: 20vw;
+}
 
