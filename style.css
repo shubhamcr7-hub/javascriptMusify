@@ -15,12 +15,12 @@ nav ul{
     align-items: center;
     display: flex;
     background-color: black;
-    height: 50px;
+    height: 60px;
     color: aliceblue;
 }
 .SpyfyLogo img{
     height: 50px;
-    width: 100px;
+    width: 80px;
     padding: 0 1px;
 }
 .SpyfyLogo{
@@ -46,6 +46,9 @@ nav ul li{
 .icons{
     margin-top:10px;
 }
+.icons i{
+    cursor: pointer;
+}
 
 .container{
     height: 70vh;
@@ -53,9 +56,32 @@ nav ul li{
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 12px auto;
+    padding: 10px;
+    background-image:url('Nc\ cover.jpg');
 }
 #Progress{
     text-align: center;
     width: 60%;
     color: black;
 }
+.songList{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 50%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border-radius:2px ;
+}
+.cover img{
+    height: 30px;
+    width:50px;
+}
+
