@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body{
+    background-color: green;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'ubuntu',sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+}
+.SpyfyLogo img{
+    height: 50px;
+    width: 100px;
+    padding: 0 1px;
+}
+.SpyfyLogo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.9rem;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.songProgress{
+    position: relative;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top:10px;
+}
+
+.container{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+#Progress{
+    text-align: center;
+    width: 60%;
+    color: black;
+}
