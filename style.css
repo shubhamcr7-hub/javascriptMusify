@@ -51,7 +51,7 @@ nav ul li{
 }
 
 .container{
-    height: 70vh;
+    height: 72vh;
     background-color: black;
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -61,7 +61,7 @@ nav ul li{
     width: 80%;
     border-radius: 12px auto;
     padding: 10px;
-    background-image:url('Nc\ cover.jpg');
+    background-image:url('ncsInfinity.jpg');
 }
 #Progress{
     text-align: center;
@@ -72,16 +72,32 @@ nav ul li{
     height: 40px;
     display: flex;
     background-color: white;
-    width: 50%;
+    width: 40%;
     color: black;
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
-    border-radius:2px ;
+    border-radius:10px ;
 }
 .cover img{
     height: 30px;
     width:50px;
+}
+.cover2 img{
+    height: 30px;
+    width:50px;
+}
+.lists{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 40%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border-radius:10px ;
 }
 
