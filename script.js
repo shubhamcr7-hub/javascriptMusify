@@ -2,6 +2,7 @@ console.log("welcome to musify")
 let songIndex=0;
 let audioElement=new Audio('drop-it-124014.mp3');
 let masterPlay=document.getElementById('masterPlay');
+let progressBar=document.getElementById('Progress');
 let songs=[
     {songname:"closer", filePath:"mp3\drop-it-124014.mp3" },
     {songname:"closer", filePath:"mp3\drop-it-124014.mp3" }
@@ -25,5 +26,18 @@ masterPlay.addEventListener('click',()=>{
 
     }
     
+})
+
+audioElement.addEventListener('timeupdate',()=>{
+    console.log('timeupdate');
+    let songProgress=parseInt((audioElement.currentTime/audioElement.duration)*100);
+    console.log(songProgress);
+    progressBar.value=songProgress;
+    //console.log('progressBar');
+
+})
+
+progressBar.addEventListener('change',()=>{
+    audioElement.currentTime=progressBar.value*audioElement.duration/100;
 })
 
