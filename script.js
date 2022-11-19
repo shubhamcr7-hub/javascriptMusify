@@ -33,8 +33,12 @@ audioElement.addEventListener('timeupdate',()=>{
     let songProgress=parseInt((audioElement.currentTime/audioElement.duration)*100);
     console.log(songProgress);
     progressBar.value=songProgress;
-    //console.log('progressBar');
-
+    if(songProgress==100){
+        console.log('done');
+        audioElement.pause();
+        masterPlay.classList.remove('fa-pause-circle');
+        masterPlay.classList.add('fa-play-circle');
+    }
 })
 
 progressBar.addEventListener('change',()=>{
